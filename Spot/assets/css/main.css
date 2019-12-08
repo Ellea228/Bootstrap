@@ -99,11 +99,13 @@ hr {
 }
 
 #main .container {
+    text-align: center;
     padding-top: 4em;
     padding-bottom: 4em;
 }
 
 #main .container .row .container {
+    text-align: center;
     padding-top: 4em;
     padding-bottom: 0;
 }
@@ -137,15 +139,45 @@ hr {
 
 #phone {
     background-color: #2d2d2d2c;
+    text-align: center;
 }
 
 #phone .container {
     padding-top: 50px;
     padding-bottom: 15px;
 }
-/* .phone1 img:hover {
-    -webkit-transform: rotateZ(20deg);
-    -ms-transform: rotateZ(20deg);
-    transform: rotateZ(20deg);
-} */
+
+#phone .text-center {
+    padding-bottom: 1em;
+}
+
+.phone1 img {
+    transition: all 0.5s ease;
+}
+
+.phone1 img:hover {
+    transform: skew(-25deg, 25deg);
+    transition: 0.7s;
+}
+
+.phone2 img {
+    transition: all 0.5s ease;
+}
+
+.phone2 img:hover {
+    transform: skew(-25deg, 25deg);
+    transition: 0.7s;
+}
+
+.phone3 img {
+    transition: all 0.5s ease;
+}
+
+.phone3 img:hover {
+    transform: skew(-25deg, 25deg);
+    transition: 0.7s;
+}
+
+
+
 
