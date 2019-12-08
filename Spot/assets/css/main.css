@@ -16,7 +16,7 @@ a {
 
 mark {
     color: white;
-    background: #2d2d2d3a;
+    background: #ff78787a;
     border-bottom: white solid 1px;
 }
 
@@ -66,31 +66,86 @@ hr {
 }
 
 #header {
-    background: url(https://www.izmirseoajansi.com/img/izmir-seo-ajansi.jpg) no-repeat center top;
-    min-height: 500px;
-    width: 100%;
+    background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
     margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 44px;
     text-align: center;
     background-attachment: relative;
-    background-size: 100%;
+    background-position: center center;
 
-    background-size: 100%;
+
+    background-size: cover;
+}
+#header .container {
+    padding-top: 7em;
+    padding-bottom: 5em;
 }
 
 #header h1 {
     color: white;
-    font-size: 6vmin;
+    font-size: 35px;
 }
 
 #header h2 {
     color: white;
-    font-size: 5vmin;
+    font-size: 30px;
 }
 
 #header p {
     color: white;
     line-height: 2em;
-    font-size: 5vmin;
+    font-size: 20px;
 }
 
+#main .container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#main .container .row .container {
+    padding-top: 4em;
+    padding-bottom: 0;
+}
+
+.fa-question-circle {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-book {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-asymmetrik {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-wheelchair {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-user-plus {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff7878;
+}
+.fa-door-open {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff7878;
+}
+
+#phone {
+    background-color: #2d2d2d2c;
+}
+
+#phone .container {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+/* .phone1 img:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+} */
 
