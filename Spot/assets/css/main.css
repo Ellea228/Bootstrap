@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Montserrat&display=swap');
 
 .container-fluid {
 
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f2f2f2;
 }
 .container {
@@ -12,6 +12,17 @@ body {
 }
 a {
     color: #f85c37;
+}
+
+mark {
+    color: white;
+    background: #2d2d2d3a;
+    border-bottom: white solid 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Comfortaa, sans-serif;
+    color: #000000;
 }
 
 a:hover, a:focus {
@@ -55,12 +66,31 @@ hr {
 }
 
 #header {
-    background-image: url(../img/header-bg.jpg) no-repeat center top;
-    margin-top: -10px;
-    padding-top: 20px;
+    background: url(https://www.izmirseoajansi.com/img/izmir-seo-ajansi.jpg) no-repeat center top;
+    min-height: 500px;
+    width: 100%;
+    margin-top: 80px;
     text-align: center;
     background-attachment: relative;
-    background-position: center center;
+    background-size: 100%;
 
     background-size: 100%;
 }
+
+#header h1 {
+    color: white;
+    font-size: 6vmin;
+}
+
+#header h2 {
+    color: white;
+    font-size: 5vmin;
+}
+
+#header p {
+    color: white;
+    line-height: 2em;
+    font-size: 5vmin;
+}
+
+
