@@ -1,0 +1,111 @@
+.main .container {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+.main p {
+    font-size: 17px;
+}
+
+.main .container .row .container {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 0;
+}
+
+.fa-question-circle {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-book {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-asymmetrik {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-wheelchair {
+    font-size: 45px;
+    color: #ff7878;
+}
+.fa-user-plus {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff7878;
+}
+.fa-door-open {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff7878;
+}
+
+.phone {
+    background-color: #2d2d2d2c;
+    text-align: center;
+}
+
+.phone .container {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.phone .text-center {
+    padding-bottom: 1em;
+}
+
+.phone1 img {
+    transition: all 0.5s ease;
+}
+
+.phone1 img:hover {
+    transform: skew(-25deg, 25deg);
+    transition: 0.7s;
+}
+
+.phone2 img {
+    transition: all 0.5s ease;
+}
+
+.phone2 img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.7s;
+}
+
+.phone3 img {
+    transition: all 0.5s ease;
+}
+
+.phone3 img:hover {
+    transform: skew(25deg, -25deg);
+    transition: 0.7s;
+}
+
+
+.support {
+    text-align: center;
+}
+
+.support h3 {
+    padding-top: 30px;
+}
+
+.support p {
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.awesome {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.awesome h3 {
+    padding-top: 30px;
+}
+
+.awesome img {
+    padding-bottom: 20px
+}

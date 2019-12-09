@@ -77,7 +77,7 @@ hr {
     background-color: #ff7878;
 }
 
-#header {
+.headerMain {
     background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
     padding-top: 40px;
     padding-bottom: 44px;
@@ -88,38 +88,38 @@ hr {
 
     background-size: cover;
 }
-#header .container {
+.headerMain .container {
     padding-top: 7em;
     padding-bottom: 5em;
 }
 
-#header h1 {
+.headerMain h1 {
     color: white;
     font-size: 35px;
 }
 
-#header h2 {
+.headerMain h2 {
     color: white;
     font-size: 30px;
 }
 
-#header p {
+.headerMain p {
     color: white;
     line-height: 2em;
     font-size: 20px;
 }
 
-#main .container {
+.main .container {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 4em;
 }
 
-#main p {
+.main p {
     font-size: 17px;
 }
 
-#main .container .row .container {
+.main .container .row .container {
     text-align: center;
     padding-top: 4em;
     padding-bottom: 0;
@@ -152,17 +152,17 @@ hr {
     color: #ff7878;
 }
 
-#phone {
+.phone {
     background-color: #2d2d2d2c;
     text-align: center;
 }
 
-#phone .container {
+.phone .container {
     padding-top: 50px;
     padding-bottom: 15px;
 }
 
-#phone .text-center {
+.phone .text-center {
     padding-bottom: 1em;
 }
 
@@ -172,7 +172,7 @@ hr {
 
 .phone1 img:hover {
     transform: skew(-25deg, 25deg);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .phone2 img {
@@ -181,7 +181,7 @@ hr {
 
 .phone2 img:hover {
     transform: scale(1.1, 1.1);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .phone3 img {
@@ -190,55 +190,55 @@ hr {
 
 .phone3 img:hover {
     transform: skew(25deg, -25deg);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 
-#support {
+.support {
     text-align: center;
 }
 
-#support h3 {
+.support h3 {
     padding-top: 30px;
 }
 
-#support p {
+.support p {
     padding-top: 20px;
     font-size: 18px;
     padding-bottom: 40px;
 }
 
-#awesome {
+.awesome {
     text-align: center;
     background-color: #ebebeb;
 }
 
-#awesome h3 {
+.awesome h3 {
     padding-top: 30px;
 }
 
-#awesome img {
+.awesome img {
     padding-bottom: 20px
 }
 
-#storytellers {
+.storytellers {
     text-align: center;
     background-color: #ff7878;
     color: white;
 }
 
-#storytellers h3 {
+.storytellers h3 {
     color: white;
     padding-top: 3em;
 }
 
-#storytellers p {
+.storytellers p {
     padding-top: 1em;
     padding-bottom: 5em;
     font-size: 18px;
 }
 
-#social {
+.social {
     text-align: center;
     background-color: #292929;
     padding-top: 60px;
@@ -274,14 +274,14 @@ hr {
     color: #ff7878;
 }
 
-#footer {
+.footer {
     background-color: #212121;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-#footer h5 {
+.footer h5 {
     color: white;
 }
 

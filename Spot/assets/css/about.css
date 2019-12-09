@@ -1,0 +1,32 @@
+
+.header {
+    background-color: #3598db;
+    padding-top: 9em;
+    padding-bottom: 44px;
+    text-align: center;
+}
+
+.header h3 {
+    color: white;
+}
+
+.about {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about img {
+    border-radius: 100px;
+}
+
+.statistics {
+    background-color: #e0e0e0;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.statistics h3 {
+    padding-bottom: 1em;
+}
