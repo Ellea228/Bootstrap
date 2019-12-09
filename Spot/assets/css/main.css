@@ -47,9 +47,10 @@ hr {
     border-radius: 0;
 }
 
+
 .navbar-inverse {
-    background: #2d2d2d;
-    border-color: #2d2d2d;
+    background: #2d2d2de5;
+    border-color: #ffffff8e;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -59,15 +60,18 @@ hr {
     padding-right: 17px;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
 .navbar-inverse .navbar-brand {
-    color: #999;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 22px;
 }
 
 #header {
     background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    margin-top: 80px;
     padding-top: 40px;
     padding-bottom: 44px;
     text-align: center;
@@ -100,8 +104,12 @@ hr {
 
 #main .container {
     text-align: center;
-    padding-top: 4em;
+    padding-top: 1em;
     padding-bottom: 4em;
+}
+
+#main p {
+    font-size: 17px;
 }
 
 #main .container .row .container {
@@ -176,6 +184,102 @@ hr {
 .phone3 img:hover {
     transform: skew(25deg, -25deg);
     transition: 0.7s;
+}
+
+
+#support {
+    text-align: center;
+}
+
+#support h3 {
+    padding-top: 30px;
+}
+
+#support p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+#support img {
+    padding-top: 40px;
+}
+
+
+#awesome {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+#awesome h3 {
+    padding-top: 30px;
+}
+
+#awesome img {
+    padding-bottom: 20px
+}
+
+#storytellers {
+    text-align: center;
+    background-color: #ff7878;
+    color: white;
+}
+
+#storytellers h3 {
+    color: white;
+    padding-top: 3em;
+}
+
+#storytellers p {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    font-size: 18px;
+}
+
+#social {
+    text-align: center;
+    background-color: #292929;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fa-twitter {
+    color: #bdbdbd;
+    font-size: 50px;
+}
+
+.fa-twitter:hover {
+    color: #ff7878;
+}
+
+.fa-facebook-f {
+    color: #bdbdbd;
+    font-size: 50px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.fa-facebook-f:hover {
+    color: #ff7878;
+}
+
+.fa-globe {
+    color: #bdbdbd;
+    font-size: 50px;
+}
+
+.fa-globe:hover {
+    color: #ff7878;
+}
+
+#footer {
+    background-color: #212121;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer h5 {
+    color: white;
 }
 
 
