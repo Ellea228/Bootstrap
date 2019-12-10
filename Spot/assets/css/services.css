@@ -49,6 +49,13 @@
 .table {
     text-align: center;
     margin-top: 4em;
+    transition: all 0.5s ease;
+}
+
+.table:hover {
+    box-shadow: 0em 0em 20px rgba(122, 122, 122, 0.76);
+    transform: scale(1.01, 1.01);
+    transition: 0.5s;
 }
 
 tbody {
