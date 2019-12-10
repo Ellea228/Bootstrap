@@ -73,6 +73,7 @@ hr {
     color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 22px;
+    padding: 9px 10px;
 }
 
 .navbar-inverse .navbar-brand:hover{
@@ -86,6 +87,11 @@ hr {
 .navbar .navbar-toggle:hover {
     background-color: #ff7878;
 }
+
+.nav > li > a {
+    padding: 10px 10px;
+}
+
 
 .headerMain {
     background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
