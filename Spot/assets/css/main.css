@@ -288,3 +288,17 @@ hr {
 
 
 
+.header {
+    background-color: #3598db;
+    padding-top: 9em;
+    padding-bottom: 44px;
+    text-align: center;
+}
+
+.header h3 {
+    color: white;
+}
+
+
+
+

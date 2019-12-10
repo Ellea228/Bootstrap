@@ -1,0 +1,93 @@
+.services {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.fa-tv {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.fa-cogs {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.fa-eye {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.fa-heart {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.fa-shopping-cart {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.fa-cloud {
+    color: #ff7878;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.pricingTable {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #2d2d2d2c;
+}
+
+.table {
+    text-align: center;
+    margin-top: 4em;
+}
+
+tbody {
+    font-size: 20px;
+    background-color: #eeeeee;
+}
+
+.table th {
+    text-align: center;
+    color: white;
+    background-color: #212121;
+}
+
+
+th h2 {
+    color: white;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 25px;
+}
+
+.tdButton {
+    background-color: #1abc9c;
+}
+
+.tdButton:hover {
+    background-color: #1dcca9;
+}
+
+.tdButton a {
+    color: white;
+}
+
+.textInv {
+    font-size: 20px;
+}
+
+.textCash {
+    font-size: 60px;
+    font-style: italic;
+}
