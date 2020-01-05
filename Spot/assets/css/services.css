@@ -44,6 +44,7 @@
     padding-top: 5em;
     padding-bottom: 5em;
     background-color: #2d2d2d2c;
+    cursor: pointer;
 }
 
 .table {
